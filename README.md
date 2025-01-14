@@ -1,5 +1,5 @@
-** SWP391-ProjectGroup6 **
-- @Setting Project 
+#SWP391-ProjectGroup6 
+##- @Setting Project 
   - Spring Initializr : https://start.spring.io/
   - Project: Maven 
   - Language: Java
@@ -11,5 +11,8 @@
     - Spring Data JPA(SQL)
     - Lombok(Tool)
   - IDE: Intellij ,Postgres,...
-- FrontEnd Tech: ReactJS,...
-- BackEnd Tech: SpringBoot,...
+##- FrontEnd Tech: ReactJS,...
+##- BackEnd Tech: SpringBoot,...
+##-Database: DatabaseV2
+![DBV2](https://github.com/user-attachments/assets/ec7879af-9b64-4564-939c-4c1971f11d0b)
+
