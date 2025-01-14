@@ -114,3 +114,12 @@ CREATE TABLE tbl_otp (
 );
 
 
+--Bang trung gian giua tbl_service va tbl_vaccine
+CREATE TABLE tbl_service_vaccines (
+    id SERIAL PRIMARY KEY,                  
+    service_id INT REFERENCES tbl_services(service_id) ON DELETE CASCADE, 
+	  vaccine_id INT REFERENCES tbl_vaccines(vaccine_id) ON DELETE CASCADE
+);
+
+
+
