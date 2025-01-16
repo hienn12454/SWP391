@@ -9,6 +9,8 @@ CREATE TABLE tbl_admin (
     role VARCHAR(50) CHECK (role IN ('Super Admin', 'Admin')) NOT NULL
 );
 
+SELECT * FROM tbl_admin;
+
 -- Bảng Nhân viên (Staff)
 CREATE TABLE tbl_staff (
     staff_id SERIAL PRIMARY KEY,
